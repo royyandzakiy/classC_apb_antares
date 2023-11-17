@@ -32,7 +32,8 @@
 #include <stdbool.h>
 #include <stdarg.h>
 #include <stdio.h>
-#include <stdint-gcc.h>
+// #include <stdint-gcc.h> // ROY: error, so changed to stdint.h
+#include <stdint.h>
 #include "tremo_uart.h"
 
 #include "tremo_regs.h"

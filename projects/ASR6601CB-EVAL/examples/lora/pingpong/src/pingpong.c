@@ -238,7 +238,7 @@ int app_start( void )
                         }
                         DelayMs( 10 );
                         printf("Sent: PING\r\n");
-                        Radio.Send( Buffer, BufferSize );
+                        Radio.Send( Buffer, BufferSize );   
                     }
                     else if( strncmp( ( const char* )Buffer, ( const char* )PingMsg, 4 ) == 0 )
                     { // A master already exists then become a slave

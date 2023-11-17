@@ -2839,7 +2839,7 @@ LoRaMacStatus_t SendFrameOnChannel( uint8_t channel )
         JoinRequestTrials++;
     }
     // Send now
-    Radio.Send( LoRaMacBuffer, LoRaMacBufferPktLen );
+        ;
 
     LoRaMacState |= LORAMAC_TX_RUNNING;
 #ifdef CONFIG_LWAN
